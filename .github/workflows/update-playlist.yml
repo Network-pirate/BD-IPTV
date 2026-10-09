@@ -1,0 +1,45 @@
+name: Update IPTV playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    # IPTV-org publishes public playlists daily at 00:00 UTC; wait for it to finish.
+    - cron: "30 1 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-iptv-playlist
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Generate playlist and report
+        run: python playlist_builder.py build
+
+      - name: Commit playlist if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add playlist.m3u playlist-report.txt
+          if git diff --cached --quiet; then
+            echo "Playlist and report are unchanged; no commit needed."
+          else
+            git commit -m "Update generated IPTV playlist"
+            git push
+          fi
