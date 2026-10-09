@@ -2,8 +2,8 @@ BD-IPTV Playlist Builder — build report
 
 Master source entries: 11209
 Bangladesh-origin section entries: 26
-Favorites placed after Bangladesh: 34
-Remaining master entries: 11149
+Favorites placed after Bangladesh: 33
+Remaining master entries: 11150
 Total output entries: 11209
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
@@ -37,8 +37,7 @@ Resolved favorites:
   42. Discovery Channel -> Discovery Channel (1080p) [Geo-blocked] (exact title (quality/status labels ignored))
   43. Hungama TV -> Hungama TV (576p) (exact title (quality/status labels ignored))
   44. Super Hungama -> Super Hungama (576p) (exact title (quality/status labels ignored))
-  45. National Geographic (india) -> National Geographic (India) (576p) (exact title (quality/status labels ignored))
-  46. National Geographic Wild (india) -> National Geographic Wild (India) (576p) (exact title (quality/status labels ignored))
+  45. National Geographic (United States) -> National Geographic (United States) (720p) (exact title (quality/status labels ignored))
   47. History TV18 -> History TV18 (576p) (exact title (quality/status labels ignored))
   48. Goldmines -> Goldmines (576p) (exact title (quality/status labels ignored))
   49. Goldmines action -> Goldmines Action (576p) (exact title (quality/status labels ignored))
@@ -64,4 +63,5 @@ Unresolved favorites (entries remain elsewhere in playlist):
   39. Pogo: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   40. Nick India: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   41. Disney Channel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  46. National Geographic Wild (United States): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   51. Goldmines movies: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
