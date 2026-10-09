@@ -1,86 +1,326 @@
-# Custom IPTV Playlist Builder
+# 🇧🇩 BD-IPTV — Custom IPTV Playlist Builder
 
-Generate a single M3U playlist in this order:
+An automatically updated, customized M3U playlist generated from IPTV-org's public playlist data.
 
-1. **Every channel from IPTV-org's Bangladesh country playlist first**.
-2. **Your selected favorites next**, in the exact order in `favorites.csv` (except a favorite already present in the Bangladesh section stays there and is not duplicated).
-3. **Every remaining entry from IPTV-org's public master playlist**.
+BD-IPTV organizes channels into three sections:
 
-The generated M3U gives all entries sequential `tvg-chno` numbers starting from 1. The numbers of favorites are dynamic: they follow the number of Bangladesh entries and the order of favorites. Remaining entries follow afterward. The playlist retains category, logo, stream URL, and other source metadata where present.
+1. **Bangladesh-origin channels** — placed first.
+2. **Your favorite channels** — placed next, in the order configured in `favorites.csv`.
+3. **All remaining channels** — retained from IPTV-org's master playlist.
 
-The project starts with the favorite channel names discussed so far. This is an initial list, not a complete list; add more rows to `favorites.csv` as needed.
+The playlist is regenerated automatically using GitHub Actions. Your published playlist URL remains the same while the generated file is updated.
 
-## Data sources
+## 📺 Your IPTV Playlist
 
-- Master playlist: `https://iptv-org.github.io/iptv/index.m3u`
-- Bangladesh country playlist: `https://iptv-org.github.io/iptv/countries/bd.m3u`
+**Main playlist:**
 
-The generator uses the Bangladesh playlist to create the first section, preferring the matching master-playlist entry where it can identify the same channel. If a channel appears in the Bangladesh list but not the master list, it is added to the Bangladesh section. Every entry from the master playlist is retained once in the output; favorites are moved, not copied, so a source channel is not intentionally duplicated.
+https://raw.githubusercontent.com/Network-pirate/BD-IPTV/main/playlist.m3u
 
-IPTV-org's public playlists choose a best available stream for each channel; its `index.m3u` is not a catalogue of every alternative feed/stream URL. The generator doesn't probe playback or repair broken source URLs. Use streams only when you are authorized to access them.
+**Favorite channel configuration:**
 
-## How to edit the favorite channel list
+https://github.com/Network-pirate/BD-IPTV/blob/main/favorites.csv
 
-Open `favorites.csv`. It has these columns:
+**Latest generation report:**
 
-- `order`: display order among your favorites. Use 1, 2, 3, and so on.
-- `channel_name`: the title or a search phrase for the channel you want.
-- `channel_id`: optional, but recommended when a name is ambiguous. Fill in the exact `tvg-id` obtained from the search command below.
+https://github.com/Network-pirate/BD-IPTV/blob/main/playlist-report.txt
 
-The starter file includes the channel names you mentioned so far: Sony, Star Gold, Star Gold 2, Star Jalsha, Star Movies, Star Movies Select, Zee Bangla, Zee Action, Zee Cinema, Nickelodeon, Nickelodeon HD Plus, Nickelodeon Junior, National Geographic, National Geographic Wild, Jalsha Movies, Disney Channel, Disney International, Goldmines Action, Goldmines, Goldmines 2, Goldmines Movies, Goldmines Bollywood, Hungama TV, Cartoon Network, Discovery, Colors Bangla, and Colors Hindi.
+Add the main playlist URL to Sparkle TV or another IPTV player that supports remote M3U playlists.
 
-Name-only matching succeeds when the name exactly matches an entry title or when it uniquely identifies a title. Generic names such as `Sony`, `Discovery`, or `National Geographic` can be ambiguous because several feeds/channels may match. Ambiguous or missing favorites are listed in `playlist-report.txt`; those channel entries are still preserved in the rest of the playlist, but they're not moved into the favorites section until you disambiguate them with `channel_id`.
+The repository must remain publicly accessible for players that cannot authenticate with GitHub.
 
-### Find an exact ID on Windows
+## ⚙️ How It Works
 
-Install Python 3.10+ if needed, extract/clone the project, open PowerShell in the project folder, and run:
+BD-IPTV downloads two source playlists maintained by IPTV-org.
+
+| Source                       | Purpose                                            |
+| ---------------------------- | -------------------------------------------------- |
+| IPTV-org master playlist     | Provides the main collection of channel entries    |
+| IPTV-org Bangladesh playlist | Helps identify and organize the Bangladesh section |
+
+Source playlists:
+
+* Master playlist: https://iptv-org.github.io/iptv/index.m3u
+* Bangladesh playlist: https://iptv-org.github.io/iptv/countries/bd.m3u
+* IPTV-org repository: https://github.com/iptv-org/iptv
+
+The generator processes the available data and produces a single M3U playlist.
+
+### Playlist ordering
+
+The generated playlist follows this structure:
+
+**Section 1: Bangladesh-origin channels**
+
+Channels identified as Bangladesh-origin through their IPTV-org channel IDs are placed first. The Bangladesh country playlist also helps order these entries and can supply eligible entries that are missing from the master playlist.
+
+**Section 2: Your favorites**
+
+The generator reads `favorites.csv` and attempts to find each selected channel. Successfully matched favorites are placed after the Bangladesh section in the order specified by the configuration.
+
+If a favorite is already included in the Bangladesh section, it remains there instead of being duplicated in the favorites section.
+
+**Section 3: All remaining channels**
+
+The remaining master-playlist entries follow the favorites section in their original source order.
+
+The generator is designed to retain all master-playlist entries rather than filtering out channels simply because they are not favorites.
+
+The final playlist assigns sequential `tvg-chno` values to its entries, starting at 1.
+
+## ⭐ Managing Your Favorite Channels
+
+The `favorites.csv` file controls your custom channel lineup.
+
+It uses three columns:
+
+```csv
+order,channel_name,channel_id
+1,Sony Aath,
+2,Star Jalsha,
+3,Star Jalsha HD,
+4,Zee Bangla,
+5,Zee Bangla HD,
+```
+
+These are illustrative rows. Your actual configuration is stored in `favorites.csv`.
+
+### Column descriptions
+
+| Column         | Purpose                                                 |
+| -------------- | ------------------------------------------------------- |
+| `order`        | Determines the order among your selected favorites      |
+| `channel_name` | The channel name used when matching the source playlist |
+| `channel_id`   | The exact IPTV-org `tvg-id`, when known                 |
+
+You can add, remove, or reorder favorites by editing this file.
+
+There is no fixed limit of 100 favorite entries. You can configure as many as you need.
+
+### How channel numbers are assigned
+
+Suppose the generated Bangladesh section contains 26 entries.
+
+If the next three favorites are successfully matched, they would normally appear at positions 27, 28, and 29, subject to any favorite already included in the Bangladesh section.
+
+If the number of Bangladesh entries changes during a later update, the positions of your favorites can change accordingly.
+
+The order configured in `favorites.csv` controls the ordering of successfully matched favorites, not their permanent numerical positions in the complete playlist.
+
+## 🔎 Finding Channel IDs
+
+Some channels have multiple feeds or similar names.
+
+For example, a broadcaster might have separate SD and HD feeds, or different regional versions. The generator avoids selecting an arbitrary channel simply because its name contains a similar phrase.
+
+When a name cannot be matched confidently, the generator reports it in `playlist-report.txt`.
+
+To find the correct ID, run the search command from PowerShell in the project directory:
 
 ```powershell
-python playlist_builder.py search "Sony"
-python playlist_builder.py search "Star Gold"
-python playlist_builder.py search "National Geographic"
+python playlist_builder.py search "Star Plus"
 ```
 
-Copy the correct `tvg-id` into the row's `channel_id` column. If there are several results, choose the exact feed/channel you want. After editing, save the file and commit it to GitHub.
+Other examples:
 
-## Set up on GitHub
+```powershell
+python playlist_builder.py search "Sony Max"
+python playlist_builder.py search "National Geographic"
+python playlist_builder.py search "Cartoon Network"
+python playlist_builder.py search "Disney Channel"
+```
 
-1. Create a public repository, e.g. `my-iptv-playlist`.
-2. Upload all project files and preserve `.github/workflows/update-playlist.yml` exactly.
-3. Open **Actions → Update IPTV playlist → Run workflow** to make the first playlist.
-4. If the workflow cannot push its generated files, open **Settings → Actions → General → Workflow permissions** and enable **Read and write permissions**.
-5. The workflow runs daily at 01:30 UTC, after IPTV-org's daily public-playlist generation. It commits both `playlist.m3u` and `playlist-report.txt` when they change.
+The command searches IPTV-org's master playlist and displays matching channel names and their `tvg-id` values.
 
-Your playlist URL will be:
+Choose the exact feed you want and copy its ID into the appropriate row in `favorites.csv`.
+
+For example:
+
+```csv
+order,channel_name,channel_id
+7,Star Plus,PASTE_THE_EXACT_TVG_ID_HERE
+```
+
+Replace the placeholder with the actual ID. Never leave the placeholder in the file.
+
+When an exact ID is provided, the generator uses it to identify the intended entry. Without an ID, it attempts an exact normalized title match, ignoring supported resolution and status annotations.
+
+It does not use arbitrary partial-name matching to assign a favorite.
+
+## ⚠️ Understanding Unresolved Favorites
+
+After a build, open `playlist-report.txt`.
+
+The report identifies:
+
+* The number of master-playlist entries.
+* The number of Bangladesh-origin entries.
+* The number of successfully placed favorites.
+* The number of remaining entries.
+* Favorites already present in the Bangladesh section.
+* Unresolved or ambiguous favorites.
+* Entries retained from a previous playlist because an exact-ID favorite disappeared from the current source.
+
+An unresolved favorite is not automatically added to the custom favorites section.
+
+If a matching channel entry exists in the master playlist, it can remain in the remaining channels section. If the channel is unavailable in all configured source data, the generator cannot add it automatically.
+
+If a favorite with an exact configured ID was present in the previous generated playlist but disappears from the current source, the generator can retain the previous entry as a fallback. Its streaming URL may be outdated.
+
+A successful channel match does not guarantee successful playback. A stream may be unavailable, geographically restricted, discontinued, or incompatible with the player.
+
+## 🔄 Automatic Updates
+
+The project uses GitHub Actions to generate the playlist automatically.
+
+Workflow:
+
+`.github/workflows/update-playlist.yml`
+
+The workflow is scheduled to run every day at **01:30 UTC**, which corresponds to **07:30 Bangladesh Standard Time (UTC+6)**.
+
+The process is:
+
+1. GitHub Actions checks out the repository.
+2. Python is configured.
+3. The automated tests run.
+4. The latest source playlists are downloaded.
+5. The generator reads `favorites.csv`.
+6. `playlist.m3u` and `playlist-report.txt` are generated.
+7. GitHub commits the generated files if their contents have changed.
+
+GitHub Actions may start a scheduled workflow later than its configured time. Successful completion is also dependent on the availability of GitHub Actions and the upstream source data.
+
+### Do I need to run the workflow manually?
+
+Not for normal daily updates.
+
+GitHub Actions runs the workflow automatically according to its schedule.
+
+However, if you edit `favorites.csv` and want the changes applied immediately, commit your changes and run the workflow manually.
+
+To do that:
+
+1. Open the repository on GitHub.
+2. Select **Actions**.
+3. Select **Update IPTV playlist**.
+4. Click **Run workflow**.
+5. Select the appropriate branch and start the run.
+6. Wait for the workflow to finish successfully.
+
+### What happens if nothing changes?
+
+The workflow still runs, but if the generated playlist and report have not changed, it skips the unnecessary Git commit.
+
+## 📱 Using the Playlist in Sparkle TV
+
+Use this URL:
 
 ```text
-https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/main/playlist.m3u
+https://raw.githubusercontent.com/Network-pirate/BD-IPTV/main/playlist.m3u
 ```
 
-Replace the placeholders and add this M3U URL to Sparkle TV. The repository must remain public for a TV app without GitHub authentication to retrieve it. The URL itself stays the same; Sparkle TV must refresh the playlist to retrieve updated contents.
+Add it to Sparkle TV as an M3U playlist source.
 
-## Numbering details
+The URL remains the same as long as the repository, branch, and file path stay unchanged.
 
-- Bangladesh country entries are numbered first, following the order of `countries/bd.m3u` where possible.
-- Favorites not already in the Bangladesh section follow, in `favorites.csv` order.
-- Remaining master entries follow in source order.
-- Channel numbers can shift if IPTV-org adds or removes channels, because the Bangladesh section and favorite section are intentionally dynamic.
-- `tvg-chno` is commonly supported but isn't enforced by a universal M3U standard. Sparkle TV's own settings and version determine how it handles explicit numbering.
-- No custom count limit is imposed on `favorites.csv`; add as many ordered favorite rows as you like.
+When GitHub updates the generated file, Sparkle TV can retrieve the updated contents when it refreshes the source.
 
-## Run locally
+**Important:** Updating the playlist in GitHub does not guarantee that Sparkle TV reloads it immediately. The app may need to refresh its source.
+
+If you import a downloaded M3U file instead of using the remote URL, that local copy will not update automatically. You must download the new file again.
+
+## 🛠️ Running the Project Locally
+
+Python 3.10 or newer is recommended.
+
+The generator uses Python's standard library and does not require a separate package installation.
+
+Open PowerShell in the project directory.
+
+### Run the tests
 
 ```powershell
 python -m unittest discover -s tests -v
-python playlist_builder.py search "channel name"
+```
+
+### Search the channel source
+
+```powershell
+python playlist_builder.py search "Star Plus"
+```
+
+### Generate the playlist
+
+```powershell
 python playlist_builder.py build
 ```
 
-For offline tests against a small fixture, call the Python `make_playlist()` function from tests or use `--source-file` with `--min-entries 1`. To provide both local sources, use `--source-file master.m3u --bangladesh-source-file bangladesh.m3u --min-entries 1`.
+The generator writes:
 
-## Files
+* `playlist.m3u`
+* `playlist-report.txt`
 
-- `playlist_builder.py` — playlist parser, favorite resolution, ordering, numbering, report generation.
-- `favorites.csv` — ordered channel names and optional exact `tvg-id` mappings.
-- `.github/workflows/update-playlist.yml` — daily and manual GitHub Actions workflow.
-- `tests/` — offline tests.
+The generated files are committed to the repository by GitHub Actions when their contents change.
+
+## 🧪 Safety and Data Preservation
+
+The generator includes checks to help avoid publishing an invalid playlist if the source data is incomplete or malformed.
+
+It validates the master playlist structure and checks that the master contains a minimum expected number of entries before writing output.
+
+The generator also preserves source entry blocks and uses temporary files when writing output.
+
+These safeguards reduce the risk of replacing a valid playlist with an empty or obviously incomplete one. They cannot guarantee that an upstream playlist is complete or that every stream works.
+
+The generator does not test stream playback or repair unavailable URLs.
+
+IPTV-org's master playlist represents its chosen stream entry for each channel. It does not necessarily include every alternative feed or stream available elsewhere.
+
+Only use streaming links you are authorized to access.
+
+## 📂 Project Structure
+
+```text
+BD-IPTV/
+│
+├── playlist_builder.py
+├── favorites.csv
+├── playlist.m3u
+├── playlist-report.txt
+├── README.md
+│
+├── tests/
+│
+└── .github/
+    └── workflows/
+        └── update-playlist.yml
+```
+
+| File                                    | Description                                                         |
+| --------------------------------------- | ------------------------------------------------------------------- |
+| `playlist_builder.py`                   | Downloads, matches, orders, numbers, and generates playlist entries |
+| `favorites.csv`                         | Stores the ordered list of selected favorite channels               |
+| `playlist.m3u`                          | Generated playlist for IPTV players                                 |
+| `playlist-report.txt`                   | Latest build statistics and favorite-matching results               |
+| `tests/`                                | Automated tests executed by the workflow                            |
+| `.github/workflows/update-playlist.yml` | Daily and manual playlist-generation workflow                       |
+| `README.md`                             | Project documentation                                               |
+
+## 📌 Important Notes
+
+* The Bangladesh section is based on available channel-origin IDs and eligible entries from the Bangladesh country playlist.
+* Favorites are matched using exact channel IDs or supported exact normalized title matching.
+* Favorite positions are dynamic because the number of Bangladesh entries may change.
+* Unresolved favorites are reported rather than guessed.
+* The remaining master-playlist entries are retained in the generated output.
+* Source changes can cause channels to appear, disappear, or move.
+* Stream availability is not guaranteed.
+* The public playlist URL stays the same while the generated file is updated.
+
+---
+
+**Project repository:**
+https://github.com/Network-pirate/BD-IPTV
+
+**Generated playlist:**
+https://raw.githubusercontent.com/Network-pirate/BD-IPTV/main/playlist.m3u
