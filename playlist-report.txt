@@ -2,8 +2,8 @@ BD-IPTV Playlist Builder — build report
 
 Master source entries: 11249
 Bangladesh-origin section entries: 26
-Favorites placed after Bangladesh: 49
-Remaining master entries: 11174
+Favorites placed after Bangladesh: 55
+Remaining master entries: 11168
 Total output entries: 11249
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
@@ -32,32 +32,38 @@ Resolved favorites:
   29. Sony SAB -> Sony SAB (576p) (exact title (quality/status labels ignored))
   32. Star Sports 1 -> Star Sports 1 (576p) (exact title (quality/status labels ignored))
   33. Star Sports 2 -> Star Sports 2 (576p) (exact title (quality/status labels ignored))
-  35. Sony Sports Ten 1 -> Sony Sports Ten 1 (1080p) (exact title (quality/status labels ignored))
-  36. Sony Sports Ten 2 -> Sony Sports Ten 2 (1080p) (exact title (quality/status labels ignored))
-  38. Cartoon Network Latin America South Atlantic -> Cartoon Network Latin America South Atlantic (1080p) (exact title (quality/status labels ignored))
-  39. Cartoon Network Latin America South Pacific -> Cartoon Network Latin America South Pacific (576p) (exact title (quality/status labels ignored))
-  40. Nick jr. (india) -> Nick Jr. (India) (576p) (exact title (quality/status labels ignored))
-  41. Nickelodeon (india) -> Nickelodeon (India) (576p) (exact title (quality/status labels ignored))
-  42. Nickelodeon (United Kingdom) -> Nickelodeon (United Kingdom) (576p) (exact title (quality/status labels ignored))
-  43. NickOnline HD -> NickOnline HD (720p) (exact title (quality/status labels ignored))
-  44. Disney Channel (United States) -> Disney Channel (United States) (720p) [Geo-blocked] (exact title (quality/status labels ignored))
-  45. Disney Channel Latin America -> Disney Channel Latin America (1080p) (exact title (quality/status labels ignored))
-  46. Disney Channel Latin America Center -> Disney Channel Latin America Center (1080p) (exact title (quality/status labels ignored))
-  47. Disney jr. Latin America -> Disney Jr. Latin America (1080p) (exact title (quality/status labels ignored))
-  48. Disney jr. Latin America North HD -> Disney Jr. Latin America North HD (1080p) (exact title (quality/status labels ignored))
-  49. Disney jr. Latin America South -> Disney Jr. Latin America South (1080p) (exact title (quality/status labels ignored))
-  50. Disney jr. Latin America South HD -> Disney Jr. Latin America South HD (1080p) (exact title (quality/status labels ignored))
-  51. Discovery Channel -> Discovery Channel (1080p) [Geo-blocked] (exact title (quality/status labels ignored))
-  52. Hungama TV -> Hungama TV (576p) (exact title (quality/status labels ignored))
-  53. Super Hungama -> Super Hungama (576p) (exact title (quality/status labels ignored))
-  54. National Geographic (United States) -> National Geographic (United States) (720p) (exact title (quality/status labels ignored))
-  55. National Geographic (United States) HD East -> National Geographic (United States) HD East (720p) (exact title (quality/status labels ignored))
-  56. National Geographic Wild (india) HD -> National Geographic Wild (India) HD (1080p) (exact title (quality/status labels ignored))
-  57. National Geographic Wild (United States) HD East -> National Geographic Wild (United States) HD East (720p) (exact title (quality/status labels ignored))
-  58. History TV18 -> History TV18 (576p) (exact title (quality/status labels ignored))
-  59. Goldmines -> Goldmines (576p) (exact title (quality/status labels ignored))
-  60. Goldmines action -> Goldmines Action (576p) (exact title (quality/status labels ignored))
-  61. Goldmines Bollywood -> Goldmines Bollywood (576p) (exact title (quality/status labels ignored))
+  34. Star Sports 2 HD -> Star Sports 2 HD (720p) (exact title (quality/status labels ignored))
+  35. Star Sports 2 Hindi -> Star Sports 2 Hindi (720p) (exact title (quality/status labels ignored))
+  36. Star Sports 3 -> Star Sports 3 (576p) (exact title (quality/status labels ignored))
+  37. Star Sports khel -> Star Sports Khel (576p) (exact title (quality/status labels ignored))
+  38. Star Sports Select 1 HD -> Star Sports Select 1 HD (1080p) (exact title (quality/status labels ignored))
+  39. Star Sports Select 2 HD -> Star Sports Select 2 HD (1080p) (exact title (quality/status labels ignored))
+  41. Sony Sports Ten 1 -> Sony Sports Ten 1 (1080p) (exact title (quality/status labels ignored))
+  42. Sony Sports Ten 2 -> Sony Sports Ten 2 (1080p) (exact title (quality/status labels ignored))
+  44. Cartoon Network Latin America South Atlantic -> Cartoon Network Latin America South Atlantic (1080p) (exact title (quality/status labels ignored))
+  45. Cartoon Network Latin America South Pacific -> Cartoon Network Latin America South Pacific (576p) (exact title (quality/status labels ignored))
+  46. Nick jr. (india) -> Nick Jr. (India) (576p) (exact title (quality/status labels ignored))
+  47. Nickelodeon (india) -> Nickelodeon (India) (576p) (exact title (quality/status labels ignored))
+  48. Nickelodeon (United Kingdom) -> Nickelodeon (United Kingdom) (576p) (exact title (quality/status labels ignored))
+  49. NickOnline HD -> NickOnline HD (720p) (exact title (quality/status labels ignored))
+  50. Disney Channel (United States) -> Disney Channel (United States) (720p) [Geo-blocked] (exact title (quality/status labels ignored))
+  51. Disney Channel Latin America -> Disney Channel Latin America (1080p) (exact title (quality/status labels ignored))
+  52. Disney Channel Latin America Center -> Disney Channel Latin America Center (1080p) (exact title (quality/status labels ignored))
+  53. Disney jr. Latin America -> Disney Jr. Latin America (1080p) (exact title (quality/status labels ignored))
+  54. Disney jr. Latin America North HD -> Disney Jr. Latin America North HD (1080p) (exact title (quality/status labels ignored))
+  55. Disney jr. Latin America South -> Disney Jr. Latin America South (1080p) (exact title (quality/status labels ignored))
+  56. Disney jr. Latin America South HD -> Disney Jr. Latin America South HD (1080p) (exact title (quality/status labels ignored))
+  57. Discovery Channel -> Discovery Channel (1080p) [Geo-blocked] (exact title (quality/status labels ignored))
+  58. Hungama TV -> Hungama TV (576p) (exact title (quality/status labels ignored))
+  59. Super Hungama -> Super Hungama (576p) (exact title (quality/status labels ignored))
+  60. National Geographic (United States) -> National Geographic (United States) (720p) (exact title (quality/status labels ignored))
+  61. National Geographic (United States) HD East -> National Geographic (United States) HD East (720p) (exact title (quality/status labels ignored))
+  62. National Geographic Wild (india) HD -> National Geographic Wild (India) HD (1080p) (exact title (quality/status labels ignored))
+  63. National Geographic Wild (United States) HD East -> National Geographic Wild (United States) HD East (720p) (exact title (quality/status labels ignored))
+  64. History TV18 -> History TV18 (576p) (exact title (quality/status labels ignored))
+  65. Goldmines -> Goldmines (576p) (exact title (quality/status labels ignored))
+  66. Goldmines action -> Goldmines Action (576p) (exact title (quality/status labels ignored))
+  67. Goldmines Bollywood -> Goldmines Bollywood (576p) (exact title (quality/status labels ignored))
 
 Favorites already in Bangladesh-origin section:
   (none)
@@ -73,6 +79,6 @@ Unresolved favorites (entries remain elsewhere in playlist):
   28. Star Bharat: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   30. Zee Anmol: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   31. Dangal: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  34. Star Sports 1 Hindi: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  37. Sony Sports Ten 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  62. Goldmines movies: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  40. Star Sports 1 Hindi: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  43. Sony Sports Ten 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  68. Goldmines movies: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
