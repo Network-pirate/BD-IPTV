@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11249
+Master source entries: 11181
 Bangladesh-origin section entries: 26
-Favorites placed after Bangladesh: 55
-Remaining master entries: 11168
-Total output entries: 11249
+Favorites placed after Bangladesh: 51
+Remaining master entries: 11104
+Total output entries: 11181
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
@@ -19,23 +19,20 @@ Resolved favorites:
   9. Sony Max HD -> Sony Max HD (1080p) (exact title (quality/status labels ignored))
   10. Zee Cinema -> Zee Cinema (576p) (exact title (quality/status labels ignored))
   11. Zee Cinema HD -> Zee Cinema HD (1080p) (exact title (quality/status labels ignored))
-  12. Star Gold -> Star Gold (576p) (exact title (quality/status labels ignored))
   13. Star Gold HD -> Star Gold HD (1080p) (exact title (quality/status labels ignored))
-  14. Star Gold 2 -> Star Gold 2 (576p) (exact title (quality/status labels ignored))
   15. Star Gold 2 HD -> Star Gold 2 HD (1080p) (exact title (quality/status labels ignored))
   16. Zee Action -> Zee Action (576p) (exact title (quality/status labels ignored))
   18. Colors Cineplex -> Colors Cineplex (576p) (exact title (quality/status labels ignored))
-  19. Colors Bangla -> Colors Bangla (576p) (exact title (quality/status labels ignored))
   21. Aakaash Aath -> Aakaash Aath (576p) (exact title (quality/status labels ignored))
   23. Zee TV -> Zee TV (576p) (exact title (quality/status labels ignored))
   24. Khushboo bangla -> Khushboo Bangla (720p) (exact title (quality/status labels ignored))
+  28. Star Bharat -> Star Bharat (576p) (exact title (quality/status labels ignored))
   29. Sony SAB -> Sony SAB (576p) (exact title (quality/status labels ignored))
   32. Star Sports 1 -> Star Sports 1 (576p) (exact title (quality/status labels ignored))
   33. Star Sports 2 -> Star Sports 2 (576p) (exact title (quality/status labels ignored))
   34. Star Sports 2 HD -> Star Sports 2 HD (720p) (exact title (quality/status labels ignored))
   35. Star Sports 2 Hindi -> Star Sports 2 Hindi (720p) (exact title (quality/status labels ignored))
   36. Star Sports 3 -> Star Sports 3 (576p) (exact title (quality/status labels ignored))
-  37. Star Sports khel -> Star Sports Khel (576p) (exact title (quality/status labels ignored))
   38. Star Sports Select 1 HD -> Star Sports Select 1 HD (1080p) (exact title (quality/status labels ignored))
   39. Star Sports Select 2 HD -> Star Sports Select 2 HD (1080p) (exact title (quality/status labels ignored))
   41. Sony Sports Ten 1 -> Sony Sports Ten 1 (1080p) (exact title (quality/status labels ignored))
@@ -53,7 +50,6 @@ Resolved favorites:
   54. Disney jr. Latin America North HD -> Disney Jr. Latin America North HD (1080p) (exact title (quality/status labels ignored))
   55. Disney jr. Latin America South -> Disney Jr. Latin America South (1080p) (exact title (quality/status labels ignored))
   56. Disney jr. Latin America South HD -> Disney Jr. Latin America South HD (1080p) (exact title (quality/status labels ignored))
-  57. Discovery Channel -> Discovery Channel (1080p) [Geo-blocked] (exact title (quality/status labels ignored))
   58. Hungama TV -> Hungama TV (576p) (exact title (quality/status labels ignored))
   59. Super Hungama -> Super Hungama (576p) (exact title (quality/status labels ignored))
   60. National Geographic (United States) -> National Geographic (United States) (720p) (exact title (quality/status labels ignored))
@@ -70,15 +66,19 @@ Favorites already in Bangladesh-origin section:
 
 Unresolved favorites (entries remain elsewhere in playlist):
   7. Star Plus: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  12. Star Gold: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  14. Star Gold 2: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   17. &pictures: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  19. Colors Bangla: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   20. Zee Bangla Cinema: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   22. Sun Bangla: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   25. Colors TV: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   26. Sony Entertainment Television (SET): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   27. &TV: ambiguous exact title: &TV (576p); +TV (576p) [Geo-blocked]; TV+ (1080p)
-  28. Star Bharat: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   30. Zee Anmol: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   31. Dangal: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  37. Star Sports khel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   40. Star Sports 1 Hindi: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   43. Sony Sports Ten 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  57. Discovery Channel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   68. Goldmines movies: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
