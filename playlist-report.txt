@@ -1,15 +1,15 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11181
+Master source entries: 11196
 Bangladesh-origin section entries: 26
 Favorites placed after Bangladesh: 51
-Remaining master entries: 11104
-Total output entries: 11181
+Remaining master entries: 11119
+Total output entries: 11196
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
 Resolved favorites:
-  1. Sony Aath -> Sony Aath (1080p) (exact title (quality/status labels ignored))
+  1. Sony Aath -> Sony Aath (576p) (exact title (quality/status labels ignored))
   2. Star Jalsha -> Star Jalsha (576p) (exact title (quality/status labels ignored))
   3. Star Jalsha HD -> Star Jalsha HD (720p) (exact title (quality/status labels ignored))
   4. Zee Bangla -> Zee Bangla (576p) (exact title (quality/status labels ignored))
@@ -35,8 +35,8 @@ Resolved favorites:
   36. Star Sports 3 -> Star Sports 3 (576p) (exact title (quality/status labels ignored))
   38. Star Sports Select 1 HD -> Star Sports Select 1 HD (1080p) (exact title (quality/status labels ignored))
   39. Star Sports Select 2 HD -> Star Sports Select 2 HD (1080p) (exact title (quality/status labels ignored))
-  41. Sony Sports Ten 1 -> Sony Sports Ten 1 (1080p) (exact title (quality/status labels ignored))
-  42. Sony Sports Ten 2 -> Sony Sports Ten 2 (1080p) (exact title (quality/status labels ignored))
+  41. Sony Sports Ten 1 -> Sony Sports Ten 1 (576p) (exact title (quality/status labels ignored))
+  42. Sony Sports Ten 2 -> Sony Sports Ten 2 (576p) (exact title (quality/status labels ignored))
   44. Cartoon Network Latin America South Atlantic -> Cartoon Network Latin America South Atlantic (1080p) (exact title (quality/status labels ignored))
   45. Cartoon Network Latin America South Pacific -> Cartoon Network Latin America South Pacific (576p) (exact title (quality/status labels ignored))
   46. Nick jr. (india) -> Nick Jr. (India) (576p) (exact title (quality/status labels ignored))
