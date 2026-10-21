@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11374
+Master source entries: 11352
 Bangladesh-origin section entries: 26
-Favorites placed after Bangladesh: 50
-Remaining master entries: 11298
-Total output entries: 11374
+Favorites placed after Bangladesh: 49
+Remaining master entries: 11277
+Total output entries: 11352
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
@@ -28,7 +28,6 @@ Resolved favorites:
   24. Khushboo bangla -> Khushboo Bangla (720p) (exact title (quality/status labels ignored))
   28. Star Bharat -> Star Bharat (576p) (exact title (quality/status labels ignored))
   29. Sony SAB -> Sony SAB (720p) (exact title (quality/status labels ignored))
-  32. Star Sports 1 -> Star Sports 1 (576p) (exact title (quality/status labels ignored))
   33. Star Sports 2 -> Star Sports 2 (576p) (exact title (quality/status labels ignored))
   34. Star Sports 2 HD -> Star Sports 2 HD (720p) (exact title (quality/status labels ignored))
   35. Star Sports 2 Hindi -> Star Sports 2 Hindi (720p) (exact title (quality/status labels ignored))
@@ -76,6 +75,7 @@ Unresolved favorites (entries remain elsewhere in playlist):
   27. &TV: ambiguous exact title: &TV (576p); +TV (576p) [Geo-blocked]; TV+ (1080p)
   30. Zee Anmol: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   31. Dangal: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  32. Star Sports 1: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   37. Star Sports khel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   40. Star Sports 1 Hindi: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   43. Sony Sports Ten 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
