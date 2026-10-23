@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11362
+Master source entries: 11302
 Bangladesh-origin section entries: 26
-Favorites placed after Bangladesh: 49
-Remaining master entries: 11287
-Total output entries: 11362
+Favorites placed after Bangladesh: 48
+Remaining master entries: 11228
+Total output entries: 11302
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
@@ -21,7 +21,6 @@ Resolved favorites:
   11. Zee Cinema HD -> Zee Cinema HD (1080p) (exact title (quality/status labels ignored))
   13. Star Gold HD -> Star Gold HD (1080p) (exact title (quality/status labels ignored))
   15. Star Gold 2 HD -> Star Gold 2 HD (1080p) (exact title (quality/status labels ignored))
-  16. Zee Action -> Zee Action (576p) (exact title (quality/status labels ignored))
   18. Colors Cineplex -> Colors Cineplex (576p) (exact title (quality/status labels ignored))
   21. Aakaash Aath -> Aakaash Aath (576p) (exact title (quality/status labels ignored))
   23. Zee TV -> Zee TV (576p) (exact title (quality/status labels ignored))
@@ -66,6 +65,7 @@ Unresolved favorites (entries remain elsewhere in playlist):
   7. Star Plus: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   12. Star Gold: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   14. Star Gold 2: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  16. Zee Action: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   17. &pictures: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   19. Colors Bangla: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   20. Zee Bangla Cinema: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
