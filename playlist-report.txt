@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11302
+Master source entries: 11323
 Bangladesh-origin section entries: 26
 Favorites placed after Bangladesh: 48
-Remaining master entries: 11228
-Total output entries: 11302
+Remaining master entries: 11249
+Total output entries: 11323
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
@@ -72,7 +72,7 @@ Unresolved favorites (entries remain elsewhere in playlist):
   22. Sun Bangla: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   25. Colors TV: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   26. Sony Entertainment Television (SET): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  27. &TV: ambiguous exact title: &TV (576p); +TV (576p) [Geo-blocked]; TV+ (1080p)
+  27. &TV: ambiguous exact title: &TV (720p); +TV (576p) [Geo-blocked]; TV+ (1080p)
   30. Zee Anmol: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   31. Dangal: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   32. Star Sports 1: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
