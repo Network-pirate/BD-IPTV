@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11323
+Master source entries: 11333
 Bangladesh-origin section entries: 26
-Favorites placed after Bangladesh: 48
-Remaining master entries: 11249
-Total output entries: 11323
+Favorites placed after Bangladesh: 45
+Remaining master entries: 11262
+Total output entries: 11333
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
@@ -15,7 +15,6 @@ Resolved favorites:
   4. Zee Bangla -> Zee Bangla (576p) (exact title (quality/status labels ignored))
   5. Zee Bangla HD -> Zee Bangla HD (1080p) (exact title (quality/status labels ignored))
   6. Jalsha Movies HD -> Jalsha Movies HD (1080p) (exact title (quality/status labels ignored))
-  8. Sony Max -> Sony Max (576p) [Geo-blocked] (exact title (quality/status labels ignored))
   9. Sony Max HD -> Sony Max HD (1080p) (exact title (quality/status labels ignored))
   10. Zee Cinema -> Zee Cinema (576p) (exact title (quality/status labels ignored))
   11. Zee Cinema HD -> Zee Cinema HD (1080p) (exact title (quality/status labels ignored))
@@ -51,9 +50,7 @@ Resolved favorites:
   59. Super Hungama -> Super Hungama (576p) (exact title (quality/status labels ignored))
   60. National Geographic (United States) -> National Geographic (United States) (720p) (exact title (quality/status labels ignored))
   61. National Geographic (United States) HD East -> National Geographic (United States) HD East (720p) (exact title (quality/status labels ignored))
-  62. National Geographic Wild (india) HD -> National Geographic Wild (India) HD (1080p) (exact title (quality/status labels ignored))
   63. National Geographic Wild (United States) HD East -> National Geographic Wild (United States) HD East (720p) (exact title (quality/status labels ignored))
-  64. History TV18 -> History TV18 (576p) (exact title (quality/status labels ignored))
   65. Goldmines -> Goldmines (576p) (exact title (quality/status labels ignored))
   66. Goldmines action -> Goldmines Action (576p) (exact title (quality/status labels ignored))
   67. Goldmines Bollywood -> Goldmines Bollywood (576p) (exact title (quality/status labels ignored))
@@ -63,6 +60,7 @@ Favorites already in Bangladesh-origin section:
 
 Unresolved favorites (entries remain elsewhere in playlist):
   7. Star Plus: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  8. Sony Max: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   12. Star Gold: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   14. Star Gold 2: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   16. Zee Action: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
@@ -81,4 +79,6 @@ Unresolved favorites (entries remain elsewhere in playlist):
   43. Sony Sports Ten 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   50. Disney Channel (United States): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   57. Discovery Channel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  62. National Geographic Wild (india) HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  64. History TV18: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   68. Goldmines movies: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
