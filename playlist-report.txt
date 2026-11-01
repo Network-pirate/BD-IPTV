@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11355
+Master source entries: 11388
 Bangladesh-origin section entries: 26
-Favorites placed after Bangladesh: 45
-Remaining master entries: 11284
-Total output entries: 11355
+Favorites placed after Bangladesh: 42
+Remaining master entries: 11320
+Total output entries: 11388
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
@@ -13,8 +13,7 @@ Resolved favorites:
   2. Star Jalsha -> Star Jalsha (576p) (exact title (quality/status labels ignored))
   3. Star Jalsha HD -> Star Jalsha HD (720p) (exact title (quality/status labels ignored))
   4. Zee Bangla -> Zee Bangla (576p) (exact title (quality/status labels ignored))
-  5. Zee Bangla HD -> Zee Bangla HD (1080p) (exact title (quality/status labels ignored))
-  6. Jalsha Movies HD -> Jalsha Movies HD (1080p) (exact title (quality/status labels ignored))
+  5. Zee Bangla HD -> Zee Bangla HD (720p) (exact title (quality/status labels ignored))
   9. Sony Max HD -> Sony Max HD (1080p) (exact title (quality/status labels ignored))
   10. Zee Cinema -> Zee Cinema (576p) (exact title (quality/status labels ignored))
   11. Zee Cinema HD -> Zee Cinema HD (1080p) (exact title (quality/status labels ignored))
@@ -46,8 +45,6 @@ Resolved favorites:
   54. Disney jr. Latin America North HD -> Disney Jr. Latin America North HD (1080p) (exact title (quality/status labels ignored))
   55. Disney jr. Latin America South -> Disney Jr. Latin America South (1080p) (exact title (quality/status labels ignored))
   56. Disney jr. Latin America South HD -> Disney Jr. Latin America South HD (1080p) (exact title (quality/status labels ignored))
-  58. Hungama TV -> Hungama TV (576p) (exact title (quality/status labels ignored))
-  59. Super Hungama -> Super Hungama (576p) (exact title (quality/status labels ignored))
   60. National Geographic (United States) -> National Geographic (United States) (720p) (exact title (quality/status labels ignored))
   61. National Geographic (United States) HD East -> National Geographic (United States) HD East (720p) (exact title (quality/status labels ignored))
   63. National Geographic Wild (United States) HD East -> National Geographic Wild (United States) HD East (720p) (exact title (quality/status labels ignored))
@@ -59,6 +56,7 @@ Favorites already in Bangladesh-origin section:
   (none)
 
 Unresolved favorites (entries remain elsewhere in playlist):
+  6. Jalsha Movies HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   7. Star Plus: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   8. Sony Max: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   12. Star Gold: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
@@ -79,6 +77,8 @@ Unresolved favorites (entries remain elsewhere in playlist):
   43. Sony Sports Ten 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   50. Disney Channel (United States): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   57. Discovery Channel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  58. Hungama TV: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  59. Super Hungama: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   62. National Geographic Wild (india) HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   64. History TV18: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   68. Goldmines movies: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
