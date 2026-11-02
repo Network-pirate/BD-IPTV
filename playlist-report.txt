@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11388
+Master source entries: 11399
 Bangladesh-origin section entries: 26
 Favorites placed after Bangladesh: 42
-Remaining master entries: 11320
-Total output entries: 11388
+Remaining master entries: 11331
+Total output entries: 11399
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
