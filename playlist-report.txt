@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11399
+Master source entries: 11403
 Bangladesh-origin section entries: 26
-Favorites placed after Bangladesh: 42
-Remaining master entries: 11331
-Total output entries: 11399
+Favorites placed after Bangladesh: 43
+Remaining master entries: 11334
+Total output entries: 11403
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
@@ -39,6 +39,7 @@ Resolved favorites:
   47. Nickelodeon (india) -> Nickelodeon (India) (576p) (exact title (quality/status labels ignored))
   48. Nickelodeon (United Kingdom) -> Nickelodeon (United Kingdom) (576p) (exact title (quality/status labels ignored))
   49. NickOnline HD -> NickOnline HD (720p) (exact title (quality/status labels ignored))
+  50. Disney Channel (United States) -> Disney Channel (United States) (720p) (exact title (quality/status labels ignored))
   51. Disney Channel Latin America -> Disney Channel Latin America (1080p) (exact title (quality/status labels ignored))
   52. Disney Channel Latin America Center -> Disney Channel Latin America Center (1080p) (exact title (quality/status labels ignored))
   53. Disney jr. Latin America -> Disney Jr. Latin America (1080p) (exact title (quality/status labels ignored))
@@ -75,7 +76,6 @@ Unresolved favorites (entries remain elsewhere in playlist):
   37. Star Sports khel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   40. Star Sports 1 Hindi: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   43. Sony Sports Ten 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  50. Disney Channel (United States): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   57. Discovery Channel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   58. Hungama TV: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   59. Super Hungama: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
