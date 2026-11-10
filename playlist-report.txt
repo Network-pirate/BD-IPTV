@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11466
+Master source entries: 11470
 Bangladesh-origin section entries: 27
-Favorites placed after Bangladesh: 29
-Remaining master entries: 11410
-Total output entries: 11466
+Favorites placed after Bangladesh: 32
+Remaining master entries: 11411
+Total output entries: 11470
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
@@ -38,6 +38,9 @@ Resolved favorites:
   60. National Geographic (United States) -> National Geographic (United States) (720p) (exact title (quality/status labels ignored))
   61. National Geographic (United States) HD East -> National Geographic (United States) HD East (720p) (exact title (quality/status labels ignored))
   63. National Geographic Wild (United States) HD East -> National Geographic Wild (United States) HD East (720p) (exact title (quality/status labels ignored))
+  65. Goldmines -> Goldmines (576p) (exact title (quality/status labels ignored))
+  67. Goldmines Bollywood -> Goldmines Bollywood (576p) (exact title (quality/status labels ignored))
+  68. Goldmines movies -> Goldmines Movies (576p) (exact title (quality/status labels ignored))
 
 Favorites already in Bangladesh-origin section:
   (none)
@@ -78,7 +81,4 @@ Unresolved favorites (entries remain elsewhere in playlist):
   59. Super Hungama: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   62. National Geographic Wild (india) HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   64. History TV18: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  65. Goldmines: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   66. Goldmines action: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  67. Goldmines Bollywood: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  68. Goldmines movies: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
