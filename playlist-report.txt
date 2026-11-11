@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11470
+Master source entries: 11452
 Bangladesh-origin section entries: 27
-Favorites placed after Bangladesh: 32
-Remaining master entries: 11411
-Total output entries: 11470
+Favorites placed after Bangladesh: 31
+Remaining master entries: 11394
+Total output entries: 11452
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
@@ -20,7 +20,6 @@ Resolved favorites:
   18. Colors Cineplex -> Colors Cineplex (576p) (exact title (quality/status labels ignored))
   21. Aakaash Aath -> Aakaash Aath (576p) (exact title (quality/status labels ignored))
   24. Khushboo bangla -> Khushboo Bangla (720p) (exact title (quality/status labels ignored))
-  29. Sony SAB -> Sony SAB (720p) (exact title (quality/status labels ignored))
   39. Star Sports Select 2 HD -> Star Sports Select 2 HD (720p) (exact title (quality/status labels ignored))
   44. Cartoon Network Latin America South Atlantic -> Cartoon Network Latin America South Atlantic (1080p) (exact title (quality/status labels ignored))
   45. Cartoon Network Latin America South Pacific -> Cartoon Network Latin America South Pacific (576p) (exact title (quality/status labels ignored))
@@ -63,6 +62,7 @@ Unresolved favorites (entries remain elsewhere in playlist):
   26. Sony Entertainment Television (SET): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   27. &TV: ambiguous exact title: +TV (576p) [Geo-blocked]; TV+ (1080p)
   28. Star Bharat: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  29. Sony SAB: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   30. Zee Anmol: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   31. Dangal: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   32. Star Sports 1: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
