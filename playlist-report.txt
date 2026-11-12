@@ -1,22 +1,19 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11452
+Master source entries: 11461
 Bangladesh-origin section entries: 27
-Favorites placed after Bangladesh: 31
-Remaining master entries: 11394
-Total output entries: 11452
+Favorites placed after Bangladesh: 27
+Remaining master entries: 11407
+Total output entries: 11461
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
 Resolved favorites:
-  1. Sony Aath -> Sony Aath (576p) (exact title (quality/status labels ignored))
+  1. Sony Aath -> Sony Aath (1080p) (exact title (quality/status labels ignored))
   2. Star Jalsha -> Star Jalsha (1080p) [Geo-blocked] (exact title (quality/status labels ignored))
   3. Star Jalsha HD -> Star Jalsha HD (1080p) (exact title (quality/status labels ignored))
   5. Zee Bangla HD -> Zee Bangla HD (1080p) (exact title (quality/status labels ignored))
   6. Jalsha Movies HD -> Jalsha Movies HD (1080p) (exact title (quality/status labels ignored))
-  9. Sony Max HD -> Sony Max HD (1080p) (exact title (quality/status labels ignored))
-  11. Zee Cinema HD -> Zee Cinema HD (1080p) (exact title (quality/status labels ignored))
-  13. Star Gold HD -> Star Gold HD (1080p) (exact title (quality/status labels ignored))
   18. Colors Cineplex -> Colors Cineplex (576p) (exact title (quality/status labels ignored))
   21. Aakaash Aath -> Aakaash Aath (576p) (exact title (quality/status labels ignored))
   24. Khushboo bangla -> Khushboo Bangla (720p) (exact title (quality/status labels ignored))
@@ -33,7 +30,6 @@ Resolved favorites:
   54. Disney jr. Latin America North HD -> Disney Jr. Latin America North HD (1080p) (exact title (quality/status labels ignored))
   55. Disney jr. Latin America South -> Disney Jr. Latin America South (1080p) (exact title (quality/status labels ignored))
   56. Disney jr. Latin America South HD -> Disney Jr. Latin America South HD (1080p) (exact title (quality/status labels ignored))
-  58. Hungama TV -> Hungama TV (576p) (exact title (quality/status labels ignored))
   60. National Geographic (United States) -> National Geographic (United States) (720p) (exact title (quality/status labels ignored))
   61. National Geographic (United States) HD East -> National Geographic (United States) HD East (720p) (exact title (quality/status labels ignored))
   63. National Geographic Wild (United States) HD East -> National Geographic Wild (United States) HD East (720p) (exact title (quality/status labels ignored))
@@ -48,8 +44,11 @@ Unresolved favorites (entries remain elsewhere in playlist):
   4. Zee Bangla: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   7. Star Plus: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   8. Sony Max: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  9. Sony Max HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   10. Zee Cinema: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  11. Zee Cinema HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   12. Star Gold: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  13. Star Gold HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   14. Star Gold 2: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   15. Star Gold 2 HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   16. Zee Action: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
@@ -78,6 +77,7 @@ Unresolved favorites (entries remain elsewhere in playlist):
   43. Sony Sports Ten 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   48. Nickelodeon (United Kingdom): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   57. Discovery Channel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  58. Hungama TV: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   59. Super Hungama: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   62. National Geographic Wild (india) HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   64. History TV18: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
