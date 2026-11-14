@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11464
+Master source entries: 11472
 Bangladesh-origin section entries: 27
-Favorites placed after Bangladesh: 27
-Remaining master entries: 11410
-Total output entries: 11464
+Favorites placed after Bangladesh: 25
+Remaining master entries: 11420
+Total output entries: 11472
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
@@ -12,12 +12,10 @@ Resolved favorites:
   1. Sony Aath -> Sony Aath (1080p) (exact title (quality/status labels ignored))
   2. Star Jalsha -> Star Jalsha (1080p) [Geo-blocked] (exact title (quality/status labels ignored))
   3. Star Jalsha HD -> Star Jalsha HD (1080p) (exact title (quality/status labels ignored))
-  5. Zee Bangla HD -> Zee Bangla HD (1080p) (exact title (quality/status labels ignored))
-  6. Jalsha Movies HD -> Jalsha Movies HD (1080p) (exact title (quality/status labels ignored))
+  5. Zee Bangla HD -> Zee Bangla HD (720p) (exact title (quality/status labels ignored))
   18. Colors Cineplex -> Colors Cineplex (576p) (exact title (quality/status labels ignored))
   21. Aakaash Aath -> Aakaash Aath (576p) (exact title (quality/status labels ignored))
   24. Khushboo bangla -> Khushboo Bangla (720p) (exact title (quality/status labels ignored))
-  39. Star Sports Select 2 HD -> Star Sports Select 2 HD (720p) (exact title (quality/status labels ignored))
   44. Cartoon Network Latin America South Atlantic -> Cartoon Network Latin America South Atlantic (1080p) (exact title (quality/status labels ignored))
   45. Cartoon Network Latin America South Pacific -> Cartoon Network Latin America South Pacific (576p) (exact title (quality/status labels ignored))
   46. Nick jr. (india) -> Nick Jr. (India) (576p) (exact title (quality/status labels ignored))
@@ -42,6 +40,7 @@ Favorites already in Bangladesh-origin section:
 
 Unresolved favorites (entries remain elsewhere in playlist):
   4. Zee Bangla: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  6. Jalsha Movies HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   7. Star Plus: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   8. Sony Max: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   9. Sony Max HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
@@ -71,6 +70,7 @@ Unresolved favorites (entries remain elsewhere in playlist):
   36. Star Sports 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   37. Star Sports khel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   38. Star Sports Select 1 HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  39. Star Sports Select 2 HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   40. Star Sports 1 Hindi: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   41. Sony Sports Ten 1: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   42. Sony Sports Ten 2: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
