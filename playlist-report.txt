@@ -1,10 +1,10 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11512
+Master source entries: 11505
 Bangladesh-origin section entries: 27
-Favorites placed after Bangladesh: 32
-Remaining master entries: 11453
-Total output entries: 11512
+Favorites placed after Bangladesh: 24
+Remaining master entries: 11454
+Total output entries: 11505
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
@@ -14,18 +14,11 @@ Resolved favorites:
   3. Star Jalsha HD -> Star Jalsha HD (1080p) (exact title (quality/status labels ignored))
   5. Zee Bangla HD -> Zee Bangla HD (720p) (exact title (quality/status labels ignored))
   8. Sony Max -> Sony Max (720p) (exact title (quality/status labels ignored))
-  9. Sony Max HD -> Sony Max HD (1080p) (exact title (quality/status labels ignored))
-  13. Star Gold HD -> Star Gold HD (1080p) (exact title (quality/status labels ignored))
-  14. Star Gold 2 -> Star Gold 2 (576p) (exact title (quality/status labels ignored))
   18. Colors Cineplex -> Colors Cineplex (576p) (exact title (quality/status labels ignored))
   21. Aakaash Aath -> Aakaash Aath (576p) (exact title (quality/status labels ignored))
   24. Khushboo bangla -> Khushboo Bangla (720p) (exact title (quality/status labels ignored))
-  34. Star Sports 2 HD -> Star Sports 2 HD (1080p) (exact title (quality/status labels ignored))
-  41. Sony Sports Ten 1 -> Sony Sports Ten 1 (576p) (exact title (quality/status labels ignored))
   44. Cartoon Network Latin America South Atlantic -> Cartoon Network Latin America South Atlantic (1080p) (exact title (quality/status labels ignored))
   45. Cartoon Network Latin America South Pacific -> Cartoon Network Latin America South Pacific (576p) (exact title (quality/status labels ignored))
-  46. Nick jr. (india) -> Nick Jr. (India) (576p) (exact title (quality/status labels ignored))
-  47. Nickelodeon (india) -> Nickelodeon (India) (576p) (exact title (quality/status labels ignored))
   49. NickOnline HD -> NickOnline HD (720p) (exact title (quality/status labels ignored))
   50. Disney Channel (United States) -> Disney Channel (United States) (720p) (exact title (quality/status labels ignored))
   51. Disney Channel Latin America -> Disney Channel Latin America (1080p) (exact title (quality/status labels ignored))
@@ -36,7 +29,6 @@ Resolved favorites:
   56. Disney jr. Latin America South HD -> Disney Jr. Latin America South HD (1080p) (exact title (quality/status labels ignored))
   60. National Geographic (United States) -> National Geographic (United States) (720p) (exact title (quality/status labels ignored))
   61. National Geographic (United States) HD East -> National Geographic (United States) HD East (720p) (exact title (quality/status labels ignored))
-  62. National Geographic Wild (india) HD -> National Geographic Wild (India) HD (1080p) (exact title (quality/status labels ignored))
   63. National Geographic Wild (United States) HD East -> National Geographic Wild (United States) HD East (720p) (exact title (quality/status labels ignored))
   65. Goldmines -> Goldmines (576p) (exact title (quality/status labels ignored))
   67. Goldmines Bollywood -> Goldmines Bollywood (576p) (exact title (quality/status labels ignored))
@@ -49,9 +41,12 @@ Unresolved favorites (entries remain elsewhere in playlist):
   4. Zee Bangla: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   6. Jalsha Movies HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   7. Star Plus: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  9. Sony Max HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   10. Zee Cinema: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   11. Zee Cinema HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   12. Star Gold: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  13. Star Gold HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  14. Star Gold 2: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   15. Star Gold 2 HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   16. Zee Action: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   17. &pictures: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
@@ -68,17 +63,22 @@ Unresolved favorites (entries remain elsewhere in playlist):
   31. Dangal: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   32. Star Sports 1: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   33. Star Sports 2: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  34. Star Sports 2 HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   35. Star Sports 2 Hindi: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   36. Star Sports 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   37. Star Sports khel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   38. Star Sports Select 1 HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   39. Star Sports Select 2 HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   40. Star Sports 1 Hindi: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  41. Sony Sports Ten 1: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   42. Sony Sports Ten 2: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   43. Sony Sports Ten 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  46. Nick jr. (india): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  47. Nickelodeon (india): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   48. Nickelodeon (United Kingdom): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   57. Discovery Channel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   58. Hungama TV: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   59. Super Hungama: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
+  62. National Geographic Wild (india) HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   64. History TV18: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   66. Goldmines action: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
