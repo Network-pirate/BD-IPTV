@@ -1,26 +1,31 @@
 BD-IPTV Playlist Builder — build report
 
-Master source entries: 11512
+Master source entries: 11556
 Bangladesh-origin section entries: 27
-Favorites placed after Bangladesh: 24
-Remaining master entries: 11461
-Total output entries: 11512
+Favorites placed after Bangladesh: 29
+Remaining master entries: 11500
+Total output entries: 11556
 Master entries without tvg-id: 0
 Favorites retained from previous output (possibly stale): 0
 
 Resolved favorites:
   1. Sony Aath -> Sony Aath (1080p) (exact title (quality/status labels ignored))
   3. Star Jalsha HD -> Star Jalsha HD (720p) (exact title (quality/status labels ignored))
+  4. Zee Bangla -> Zee Bangla (1080p) (exact title (quality/status labels ignored))
   5. Zee Bangla HD -> Zee Bangla HD (720p) (exact title (quality/status labels ignored))
   7. Star Plus -> StarPlus (576p) (exact title (quality/status labels ignored))
   8. Sony Max -> Sony Max (720p) (exact title (quality/status labels ignored))
   9. Sony Max HD -> Sony Max HD (1080p) (exact title (quality/status labels ignored))
   18. Colors Cineplex -> Colors Cineplex (576p) (exact title (quality/status labels ignored))
+  19. Colors Bangla -> Colors Bangla (1080p) (exact title (quality/status labels ignored))
   21. Aakaash Aath -> Aakaash Aath (576p) (exact title (quality/status labels ignored))
   24. Khushboo bangla -> Khushboo Bangla (720p) (exact title (quality/status labels ignored))
   28. Star Bharat -> Star Bharat (576p) (exact title (quality/status labels ignored))
+  37. Star Sports khel -> Star Sports Khel (1080p) (exact title (quality/status labels ignored))
+  42. Sony Sports Ten 2 -> Sony Sports Ten 2 (1080p) (exact title (quality/status labels ignored))
   44. Cartoon Network Latin America South Atlantic -> Cartoon Network Latin America South Atlantic (1080p) (exact title (quality/status labels ignored))
   45. Cartoon Network Latin America South Pacific -> Cartoon Network Latin America South Pacific (576p) (exact title (quality/status labels ignored))
+  47. Nickelodeon (india) -> Nickelodeon (India) (exact title (quality/status labels ignored))
   49. NickOnline HD -> NickOnline HD (720p) (exact title (quality/status labels ignored))
   50. Disney Channel (United States) -> Disney Channel (United States) (720p) (exact title (quality/status labels ignored))
   51. Disney Channel Latin America -> Disney Channel Latin America (1080p) (exact title (quality/status labels ignored))
@@ -39,7 +44,6 @@ Favorites already in Bangladesh-origin section:
 
 Unresolved favorites (entries remain elsewhere in playlist):
   2. Star Jalsha: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  4. Zee Bangla: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   6. Jalsha Movies HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   10. Zee Cinema: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   11. Zee Cinema HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
@@ -49,7 +53,6 @@ Unresolved favorites (entries remain elsewhere in playlist):
   15. Star Gold 2 HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   16. Zee Action: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   17. &pictures: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  19. Colors Bangla: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   20. Zee Bangla Cinema: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   22. Sun Bangla: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   23. Zee TV: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
@@ -64,15 +67,12 @@ Unresolved favorites (entries remain elsewhere in playlist):
   34. Star Sports 2 HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   35. Star Sports 2 Hindi: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   36. Star Sports 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  37. Star Sports khel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   38. Star Sports Select 1 HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   39. Star Sports Select 2 HD: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   40. Star Sports 1 Hindi: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   41. Sony Sports Ten 1: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  42. Sony Sports Ten 2: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   43. Sony Sports Ten 3: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   46. Nick jr. (india): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
-  47. Nickelodeon (india): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   48. Nickelodeon (United Kingdom): no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   57. Discovery Channel: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
   58. Hungama TV: no exact title or tvg-id match; enter the exact tvg-id instead of guessing
